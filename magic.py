@@ -5,7 +5,7 @@ count = 1
 ticketNo = 0
 f = open('TwojPlik.txt', 'r')
 for x in f:
-   content.append(str(count) + ') ' + x.split('/',2)[-1].strip() + tickets[ticketNo] + arguments)
+   content.append(str(count) + ') ' + x.split('/',2)[-1].strip() + listOfTickets[ticketNo] + argumentsToBeAdded)
    count += 1
    if count == 257:
       if ticketNo != 10:
